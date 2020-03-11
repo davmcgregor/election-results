@@ -36,12 +36,12 @@ We want to transform this into a standard result that shows:
 
 | Input | Output |
 | ----- | ------ |
-| Testville, 10, L | Testville, 100% Labour Party |
-| Testville, 10, C | Testville, 100% Conservative Party |
-| Testville, 10, L, 10, C | Testville, 50% Labour Party, 50% Conservative Party |
-| Testville, 1, L, 1, C, 1, UKIP, 1, G | Testville, 25% Labour Party, 25% Conservative Party, 25% UKIP, 25% Green Party |
-| Cardiff West, 11014, C, 17803, L, 4923, UKIP, 2069, LD | Cardiff West, 31% Conservative Party, 50% Labour Party, 14% UKIP, 6% Liberal Democrats |
-| Islington South & Finsbury, 22547, L, 9389, C, 4829, LD, 3375, UKIP, 3371, G, 309, Ind | Islington South & Finsbury, 51% Labour Party, 21% Conservative Party, 11% Liberal Democrats, 8% UKIP, 8% Green Party, 1% Independent |
+| Testville, 10, L | Testville 100% Labour Party |
+| Testville, 10, C | Testville 100% Conservative Party |
+| Testville, 10, L, 10, C | Testville 50% Labour Party 50% Conservative Party |
+| Testville, 1, L, 1, C, 1, UKIP, 1, G | Testville 25% Labour Party 25% Conservative Party 25% UKIP 25% Green Party |
+| Cardiff West, 11014, C, 17803, L, 4923, UKIP, 2069, LD | Cardiff West 31% Conservative Party 50% Labour Party 14% UKIP 6% Liberal Democrats |
+| Islington South & Finsbury, 22547, L, 9389, C, 4829, LD, 3375, UKIP, 3371, G, 309, Ind | Islington South & Finsbury 51% Labour Party 21% Conservative Party 11% Liberal Democrats 8% UKIP 8% Green Party 1% Independent |
    
 Results.format(data)
 
