@@ -37,7 +37,7 @@ We want to transform this into a standard result that shows:
 | Input | Output |
 | ----- | ------ |
 | Testville, 10, L | Testville, 100% Labour Party |
-| Testville, 10, c | Testville, 100% Conservative Party |
+| Testville, 10, C | Testville, 100% Conservative Party |
 | Testville, 10, L, 10, C | Testville, 50% Labour Party, 50% Conservative Party |
 | Testville, 1, L, 1, C, 1, UKIP, 1, G | Testville, 25% Labour Party, 25% Conservative Party, 25% UKIP, 25% Green Party |
 | Cardiff West, 11014, C, 17803, L, 4923, UKIP, 2069, LD | Cardiff West, 31% Conservative Party, 50% Labour Party, 14% UKIP, 6% Liberal Democrats |

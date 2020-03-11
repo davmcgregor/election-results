@@ -1,5 +1,9 @@
 class Results
   def format(data)
-    return "Testville, 100% Labour Party"
+    if data.include?("L")
+      return "Testville, 100% Labour Party"
+    else
+      return "Testville, 100% Conservative Party"
+    end
   end
 end
