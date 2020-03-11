@@ -16,6 +16,8 @@ class Results
         item = "Green Party,"
       elsif item == "LD"
         item = "Liberal Democrats,"
+      elsif item == "Ind"
+        item = "Independent,"
       else
         num = item.to_i
         totalvotes += num
@@ -25,7 +27,7 @@ class Results
 
     arr.map! { |item|
       if item.is_a? Integer
-        item = "#{((item.to_f / totalvotes.to_f) * 100.00).ceil.to_i}%"
+        item = "#{((item.to_f.round(2) / totalvotes.to_f.round(2)) * 100).round()}%"
       else
         item
       end
