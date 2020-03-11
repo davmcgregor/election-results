@@ -10,6 +10,10 @@ class Results
         item = "Labour Party,"
       elsif item == "C"
         item = "Conservative Party,"
+      elsif item == "UKIP"
+        item = "UKIP,"
+      elsif item == "G"
+        item = "Green Party,"
       else
         num = item.to_i
         totalvotes += num
